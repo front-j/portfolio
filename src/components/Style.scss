@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: inherit;
+}
+
+.header{
+    padding: 10px 40px 0 40px;
+    overflow: visible;
+    display: unset;
+    .logo{
+        font-family: 'PT Serif';
+        font-weight: bold;
+    }
+    .menu{
+        background-color: #1971c2;
+        color: white;
+        width: 100%;
+        margin: 0;
+        padding: 10px 0 10px 0;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        div{
+            display: inline-block;
+            margin: 10px 80px 10px 80px;
+            cursor: pointer;
+            font-family: 'PT Serif';
+            &:hover{
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+    }
+    img{
+        border-radius: 100%;
+    }
+}
+
+.table{
+    text-align: left;
+    display: block;
+    border-bottom: 3px solid;
+}
+
+.about{
+    margin: 70px 20px 0px 20px;
+    padding: 0 40px 0 40px;
+    div{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        padding-left: 20px;
+    }
+    .introduce{
+        text-align: left;
+        line-height: 1.75em;
+        width: 50%;
+    }
+    .career{
+        text-align: left;
+        line-height: 1.75em;
+        width: 50%;
+    }
+    .date{
+        display: inline;
+        padding-left: 10px;
+        padding-right: 5px;
+        font-weight: bold;
+    }
+}
+
+.skill{
+    margin: 70px 20px 0px 20px;
+    padding: 0 40px 0 40px;
+    .skill_contents{
+        display: flex;
+        p{
+            align-self: center;
+            margin: auto;
+        }
+    }
+    .skill_list{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:hover{
+            box-shadow: 6px 8px 20px lightgray;
+            p:hover{font-weight: bold;}
+        }
+    }
+    .skill_name{
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        padding: 10px 0px;
+        box-shadow: 6px 8px 20px lightgray;
+        margin-bottom: 20%;
+    }
+    img{
+        width: 20%;
+        height: 20%;
+        margin: 10px;
+    }
+    .mid_img{
+        width: 35%;
+        height: 25%;
+    }
+}
+
+.project{
+    margin: 70px 20px 0px 20px;
+    padding: 0 40px 0 40px;
+    .project_contents{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .pj_img{
+            max-width: 50%;
+        }
+    }
+    .pj_img{
+        display: table;
+        box-sizing: border-box;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 20px 50px 30px 50px;
+        width: 50%;
+        height: 17em;
+        flex: 25%;
+        :hover{
+            cursor: pointer;
+        }
+        .pj_des{
+            background-color: rgba( 255, 255, 255, 0.5 );
+            &:hover{
+                background-color: rgba( 255, 255, 255, 0.3 );
+                box-shadow: 6px 8px 16px lightgray;
+            }
+            box-sizing: border-box;
+            display: table-cell;
+            vertical-align: middle;
+            padding: 30px;
+            h2{
+                color:#1971c2;
+            }
+        }
+    }
+}
+
+.contact{
+    margin: 70px 20px 0px 20px;
+    padding: 0 40px 0 40px;
+
+    .info{
+        float: left;
+        padding: 30px;
+        text-align: left;
+    }
+    .form{
+        padding: 30px;
+        margin-bottom: 20px;
+        float: right;
+        width: 50%;
+        background-color: #e7f5ff;
+        input, textarea{
+            margin-bottom: 10px;
+            width: 90%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            resize: none;
+            @at-root textarea{
+                height: 100px;
+            }
+        }
+        button{
+            width: 60%;
+            padding:12px;
+            border: solid 2px;
+            border-radius: 5px;
+            background-color: #1971c2;
+            color: white;
+        }
+    }
+}
