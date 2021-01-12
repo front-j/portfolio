@@ -6,15 +6,17 @@ body {
     box-sizing: inherit;
 }
 
-.header{
+.header {
     padding-top: 10px;
     overflow: visible;
     display: unset;
-    .logo{
+
+    .logo {
         font-family: 'PT Serif';
         font-weight: bold;
     }
-    .menu{
+
+    .menu {
         background-color: #1971c2;
         color: white;
         width: 100%;
@@ -23,49 +25,57 @@ body {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        div{
+
+        div {
             display: inline-block;
             margin: 10px 80px 10px 80px;
             cursor: pointer;
             font-family: 'PT Serif';
-            &:hover{
+
+            &:hover {
                 font-weight: bold;
                 text-decoration: underline;
             }
         }
     }
-    img{
+
+    img {
         border-radius: 100%;
     }
 }
 
-.table{
+.table {
     text-align: left;
     display: block;
     border-bottom: 3px solid;
 }
 
-.about{
+.about {
     margin: 70px 20px 0px 20px;
     padding: 0 40px 0 40px;
-    div{
+
+    div {
         display: flex;
     }
-    li{
+
+    li {
         list-style: none;
         padding-left: 20px;
     }
-    .introduce{
+
+    .introduce {
         text-align: left;
         line-height: 1.75em;
         width: 50%;
     }
-    .career{
+
+    .career {
         text-align: left;
         line-height: 1.75em;
         width: 50%;
     }
-    .date{
+
+    .date {
         display: inline;
         padding-left: 10px;
         padding-right: 5px;
@@ -73,28 +83,36 @@ body {
     }
 }
 
-.skill{
+.skill {
     margin: 70px 20px 0px 20px;
     padding: 0 40px 0 40px;
-    .skill_contents{
+
+    .skill_contents {
         display: flex;
-        p{
+
+        p {
             align-self: center;
             margin: auto;
         }
     }
-    .skill_list{
+
+    .skill_list {
         width: 100%;
         height: fit-content;
         display: flex;
         flex-direction: column;
         align-items: center;
-        &:hover{
+
+        &:hover {
             box-shadow: 6px 8px 20px lightgray;
-            p:hover{font-weight: bold;}
+
+            p:hover {
+                font-weight: bold;
+            }
         }
     }
-    .skill_name{
+
+    .skill_name {
         width: 90%;
         height: auto;
         margin: 10px;
@@ -102,27 +120,32 @@ body {
         box-shadow: 6px 8px 20px lightgray;
         margin-bottom: 20%;
     }
-    img{
+
+    img {
         width: 40px;
         margin: 10px;
     }
-    .mid_img{
+
+    .mid_img {
         width: 55px;
     }
 }
 
-.project{
+.project {
     margin: 70px 20px 0px 20px;
     padding: 0 40px 0 40px;
-    .project_contents{
+
+    .project_contents {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        .pj_img{
+
+        .pj_img {
             max-width: 50%;
         }
     }
-    .pj_img{
+
+    .pj_img {
         box-sizing: border-box;
         background-size: contain;
         background-repeat: no-repeat;
@@ -131,55 +154,67 @@ body {
         width: 50%;
         height: 17em;
         flex: 30%;
-        :hover{
+
+        :hover {
             cursor: pointer;
         }
-        .pj_des{
-            background-color: rgba( 255, 255, 255, 0.5 );
-            &:hover{
-                background-color: rgba( 255, 255, 255, 0.3 );
+
+        .pj_des {
+            background-color: rgba(255, 255, 255, 0.5);
+
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.3);
                 box-shadow: 6px 8px 16px lightgray;
             }
+
             box-sizing: border-box;
             vertical-align: middle;
             width: auto;
             height: inherit;
-            h2{
-                color:#1971c2;
+
+            h2 {
+                color: #1971c2;
+                margin: 0 auto;
+                padding: 35px;
             }
         }
     }
 }
 
-.contact{
+.contact {
     margin: 70px 20px 0px 20px;
     padding: 0 40px 0 40px;
 
-    .info{
+    .info {
         float: left;
         padding: 30px;
         text-align: left;
     }
-    .form{
+
+    .form {
         padding: 30px;
         margin-bottom: 20px;
         float: right;
         width: 50%;
         background-color: #e7f5ff;
-        input, textarea{
+
+        input,
+        textarea {
             margin-bottom: 10px;
             width: 90%;
             padding: 12px;
             border: none;
             border-radius: 5px;
             resize: none;
-            @at-root textarea{
+
+            @at-root textarea {
                 height: 100px;
             }
         }
-        button{
+
+        button {
             width: 60%;
-            padding:12px;
+            padding: 12px;
             border: solid 2px;
             border-radius: 5px;
             background-color: #1971c2;
