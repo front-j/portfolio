@@ -136,6 +136,33 @@ const projects = [
     url: `${vegemate}`,
     link: "링크가 없습니다.😭",
   },
+  {
+    id: 5,
+    title: "두더지 잡기 게임",
+    description: (
+      <ul style={{ listStyle: "none", padding: "0" }}>
+        <li>HTML/CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    ),
+    modalDes: (
+      <>
+        <p>HTML/CSS와 JavaScript를 이용하여 만든 두더지 잡기 게임입니다.</p>
+        <p>코드 구현에 대한 자세한 내용은 github에서 보실 수 있습니다.</p>
+      </>
+    ),
+    url:
+      "https://github.com/front-j/js-MolesCatchingGame/raw/main/images/result.gif",
+    link: (
+      <a
+        href="https://github.com/front-j/js-MolesCatchingGame"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub Repository 바로가기
+      </a>
+    ),
+  },
 ];
 
 export default projects;
