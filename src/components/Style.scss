@@ -90,7 +90,7 @@ body {
 
     .skill_contents {
         display: flex;
-
+        height: auto;
         p {
             align-self: center;
             margin: auto;
@@ -99,9 +99,7 @@ body {
 
     .skill_list {
         width: 100%;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
+        height: auto;
         align-items: center;
 
         &:hover {
@@ -124,11 +122,13 @@ body {
 
     img {
         width: 40px;
+        height: 40px;
         margin: 10px;
     }
 
     .mid_img {
         width: 55px;
+        height: 40px;
     }
 }
 
