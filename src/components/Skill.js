@@ -12,7 +12,7 @@ function Skill() {
           </div>
           <div className="skill_contents">
             <img
-              src="https://cdn.worldvectorlogo.com/logos/html-5.svg"
+              src="https://cdn.worldvectorlogo.com/logos/html5-1.svg"
               alt="html_logo"
             ></img>
             <p>HTML</p>
@@ -26,7 +26,7 @@ function Skill() {
           </div>
           <div className="skill_contents">
             <img
-              src="https://cdn.worldvectorlogo.com/logos/javascript.svg"
+              src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
               alt="js_logo"
             ></img>
             <p>JavaScript</p>
